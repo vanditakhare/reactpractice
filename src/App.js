@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import ClassCounter from './components/ClassCounter';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h1>my series</h1>
+      <p>following list consist of the names of top netflix series. do take out the time and dive deep into the realm of these amazing series.</p>
+      <ol>
+        <li>apple</li>
+        <li>affggxgple</li>
+        <li>apple</li>
+        <li>agdgple</li>
+        <li>apple</li>
+      </ol>
+    </>
+  )
 }
+
+
 
 export default App;
